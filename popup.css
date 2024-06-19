@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+#buttons {
+  margin-top: 10px;
+  align-content: center;
+}
+
+#progress {
+  width: 80%;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+}
+
+#progressBar {
+  width: 0;
+  height: 20px;
+  margin-top: 10px;
+  background-color: #4caf50;
+}
+
+#statusMessage {
+  color: red;
+}
+
+#resetButton {
+    margin-right: 0;
+    margin-left:auto;
+    display:block;
+}

@@ -1,0 +1,5 @@
+.git
+addon.zip
+zipExclude.txt
+zip.cmd
+addon.zip.*

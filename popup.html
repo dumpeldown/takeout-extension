@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="resetButton">
+    <button>Reset</button>
+  </div>
+  
+  <h3>Takeout Script</h3>
+  <div>
+    <label for="searchText">Number of files:   </label>
+    <input type="number" id="searchText" value="52">
+  </div>
+
+  <div>
+    <label for="delayTime">Delay Time (secs):</label>
+    <input type="number" id="delayTime" value="300">
+  </div>
+  
+  <div id="buttons">
+    <button id="runButton">Run</button>
+    <button id="stopButton">Stop</button>
+  </div>
+
+  <div id="progress">
+    <div id="progressBar"></div>
+  </div>
+
+  <p>Estimated time: <span id="estimatedTime"></span></p>
+  <div id="statusMessage"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

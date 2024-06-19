@@ -1,0 +1,1 @@
+"C:\Program Files\7-Zip\7z.exe" a -aoa -r -xr@zipExclude.txt addon.zip
